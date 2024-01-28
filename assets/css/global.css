@@ -10,6 +10,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 a:link,
 a:visited {
   text-decoration: none;
