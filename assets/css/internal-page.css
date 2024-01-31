@@ -41,8 +41,9 @@
 }
 
 .s-menu__icon {
-  position: absolute;
   top: 10vh;
+  position: absolute;
+  transition: transform 0.3s ease-in-out;
 }
 
 .s-menu__item:not(.s-menu__icon) {

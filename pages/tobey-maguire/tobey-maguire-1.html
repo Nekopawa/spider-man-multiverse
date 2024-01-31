@@ -4,11 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spider-man | Multiverses - Tobey Maguire</title>
+    <link rel="icon" href="../../assets/images/icons/spider.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
     <link rel="stylesheet" href="../../assets/css/internal-page.css" />
   </head>
   <body>
     <section class="s-wrapper">
-      <!-- add autoplay -->
       <video class="s-background-trailer" autoplay loop muted>
         <source
           src="../../assets/videos/spiderman-2002-trailer.mp4"
@@ -23,13 +27,13 @@
             <a href="../../index.html">
               <picture
                 ><img
-                  src="../../assets/images/icons/spiderman1.png"
-                  alt="Spider logo" /></picture
+                  src="../../assets/images/icons/spiderman-tobey.png"
+                  alt="Spider icon" /></picture
             ></a>
           </li>
-          <li class="s-menu__item s-menu__item--active"><a href="#">01</a></li>
-          <li class="s-menu__item"><a href="#">02</a></li>
-          <li class="s-menu__item"><a href="#">03</a></li>
+          <a href="#"><li class="s-menu__item s-menu__item--active">01</li></a>
+          <a href="./tobey-maguire-2.html"><li class="s-menu__item">02</li></a>
+          <a href="./tobey-maguire-3.html"><li class="s-menu__item">03</li></a>
         </ul>
       </nav>
 
@@ -38,24 +42,19 @@
           <picture>
             <img
               src="../../assets/images/spiderman-tobey/movie-01/logo.png"
-              alt="Film logo"
+              alt="Spider-man"
             />
           </picture>
         </section>
 
         <section class="s-sinopsis">
-          <h2 class="s-sinopsis__item">Ano: 2007</h2>
-          <h2 class="s-sinopsis__item">Diretor: Sam Raimi</h2>
+          <h2 class="s-sinopsis__item">Year: 2002</h2>
+          <h2 class="s-sinopsis__item">Director: Sam Raimi</h2>
           <p class="s-sinopsis__text">
-            <strong>Sinopse:</strong>&nbsp;Depois de ser picado por uma aranha
-            geneticamente modificada em uma demonstração científica, o jovem
-            nerd Peter Parker ganha superpoderes. Inicialmente, ele pretende
-            usá-los para para ganhar dinheiro, adotando o nome de Homem-Aranha e
-            se apresentando em lutas de exibição. Porém, ao presenciar o
-            assassinando de seu tio Ben e sentir-se culpado, Peter decide não
-            mais usar seus poderes para proveito próprio e sim para enfrentar o
-            mal, tendo como seu primeiro grande desafio o psicótico Duende
-            Verde.
+            <strong>Sinopsis:</strong>&nbsp;Peter Parker, a shy and awkward high
+            school student, is often bullied by people, including his best
+            friend. His life changes when he is bitten by a genetically altered
+            spider and gains superpowers.
           </p>
         </section>
 
@@ -68,30 +67,50 @@
             <div class="s-trailer__play-button">
               <div class="s-trailer__arrow"></div>
             </div>
-            <p>Assistir trailer</p>
+            <p>Watch trailer</p>
           </a>
         </section>
 
         <section class="s-gallery">
-          <picture class="s-gallery__image">
-            <img
-              src="../../assets/images/spiderman-tobey/movie-01/gallery/image-01.png"
-            />
-          </picture>
-          <picture class="s-gallery__image">
-            <img
-              src="../../assets/images/spiderman-tobey/movie-01/gallery/image-02.png"
-            />
-          </picture>
-          <picture class="s-gallery__image">
-            <img
-              src="../../assets/images/spiderman-tobey/movie-01/gallery/image-03.png"
-            />
-          </picture>
+          <a
+            href="../../assets/images/spiderman-tobey/movie-01/gallery/image-01-full.jpg"
+            data-fancybox="gallery"
+          >
+            <picture class="s-gallery__image">
+              <img
+                src="../../assets/images/spiderman-tobey/movie-01/gallery/image-01.png"
+              />
+            </picture>
+          </a>
+
+          <a
+            href="../../assets/images/spiderman-tobey/movie-01/gallery/image-02-full.jpg"
+            data-fancybox="gallery"
+          >
+            <picture class="s-gallery__image">
+              <img
+                src="../../assets/images/spiderman-tobey/movie-01/gallery/image-02.png"
+              />
+            </picture>
+          </a>
+
+          <a
+            href="../../assets/images/spiderman-tobey/movie-01/gallery/image-03-full.jpg"
+            data-fancybox="gallery"
+          >
+            <picture class="s-gallery__image">
+              <img
+                src="../../assets/images/spiderman-tobey/movie-01/gallery/image-03.png"
+              />
+            </picture>
+          </a>
         </section>
       </main>
 
-      <!--<footer><!-- script </footer>-->
+      <footer>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <script src="../../assets/scripts/internal-page.js"></script>
+      </footer>
     </section>
   </body>
 </html>
